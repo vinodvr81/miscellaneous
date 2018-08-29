@@ -1,0 +1,24 @@
+Hello Hello How are you now ?
+Where are you now ?
+
+
+
+As others have pointed out the $x are capture variables for regular expressions allowing you to reference sections of a matched pattern.
+
+Perl also supports named captures which might be easier for humans to remember in some cases.
+
+given input: 111 222
+
+/(\d+)\s+(\d+)/
+
+$1 is 111
+
+$2 is 222
+
+One could also say:
+
+/(?<myvara>\d+)\s+(?<myvarb>\d+)/
+
+$+{myvara} is 111
+
+$+{myvarb} is 222
