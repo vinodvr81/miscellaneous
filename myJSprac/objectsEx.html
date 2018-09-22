@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+	
+	<head>
+		<title>Title of the document</title>
+	</head>
+
+	<body>
+		The content of the document......	
+
+	<script language="javascript" type="text/javascript">
+		
+		var capitals = {"Andhra" : "Amaravathi", "Telangana" : "Hyderabad"};
+		document.write("<br/>");
+		document.write("Andhra Pradesh capital city is : " +	capitals.Andhra);
+		document.write("<br/>");
+		document.write("Telangana capital city is : " +	capitals.Telangana);
+		document.write("<br/>");
+		var txt = "";
+		var x;
+		for (x in capitals)
+		{
+			txt += capitals[x] + "  ";
+			
+		}
+		
+		document.write("<br/>  " +txt)
+		
+	</script>
+</body>
+</html> 
+
+
+

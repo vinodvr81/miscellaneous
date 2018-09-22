@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>	
+	<head>
+		<title>Title of the document</title>
+	<script language="javascript" type="text/javascript">
+		function WriteCookie()
+		{
+			if(document.myform.customer.value == "")
+			{
+				alert("Enter any  value!");
+				return;
+			}
+			var cookievalue=escape(document.myform.customer.value) + ";";
+			document.cookie="name="+ cookievalue;	
+			document.write("Setting Cookies: " + "names=" + cookievalue);
+		}
+		</script>
+	</head>
+
+	<body>
+		
+		<form name="myform" action="">
+			Enter name: <input type="text" name="customer"/>
+			<input type="button" value="Set Cookie" onclick="WriteCookie();"/>
+		
+		</form>
+	
+	</body>
+</html> 
+
+
+
+
+
