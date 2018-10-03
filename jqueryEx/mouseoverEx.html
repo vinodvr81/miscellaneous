@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<style>
+	div.outer{
+		width:80%;
+		height:180px;
+		background-color:aqua;	
+	}
+	
+
+	div.inner{
+		width:50%;
+		height:130px;
+		background-color:red;	
+	}	
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+
+
+
+</head>
+	<body>
+		
+		<div class="outer">
+			<span>This is a mouseover event</span>
+			
+		
+		</div>
+		<div class="inner"></div>
+		
+<script>
+
+$("div.outer").mouseover(function(){
+							$(this).find("span").text("Text event occured");
+							})											
+				.mouseout(function(){			
+							$(this).find("span").text("MouseOut event occured");
+						});
+</script>			
+	</body>
+</html>

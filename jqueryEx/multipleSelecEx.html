@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<head>
+<title>Change Selector</title>
+<style>
+    div{
+        color:aqua;
+    }
+    
+    </style>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">    
+</script>
+
+
+</head>
+<body>
+
+<select name="MyTaste"multiple="multiple">
+
+	<option selected="selected">Dosa</option>
+	<option selected="selected">Idly</option>
+	<option selected="selected">Poori</option>
+	<option selected="selected">Upma</option>
+	
+
+</select>
+
+<div id="xyz">
+</div>
+
+
+<script>
+	$("select").change(function(){
+						var str="";
+						$("select option:selected").each(function(){
+								str+=$(this).text()+"  ";
+						});
+						$("div").text(str);
+						});	
+	</script>
+	
+	
+</body>    
+    
+</html>
+

@@ -1,0 +1,5 @@
+$(selector).hide();
+$(selector).hide(speed,callback);
+$(selector).hide(speed,easing,callback);
+
+

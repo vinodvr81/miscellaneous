@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+<script
+			  src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+			  integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+			  crossorigin="anonymous"></script>
+<style> 
+	#dragg{
+		width:100px;
+		height:100px;
+		padding:0.5em;
+		background-color:aqua;
+	}
+</style>
+
+<script>
+	
+$(function(){
+			$("#dragg").draggable();
+		});
+
+</script>
+
+</head>
+	<body>
+		<div id="dragg" class="ui-widget-content">
+		<p>Hello Vinod! How are you?</p></div>	
+	</body>
+</html>
+

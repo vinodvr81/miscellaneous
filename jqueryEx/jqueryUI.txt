@@ -1,0 +1,11 @@
+We can categorize the jquery UI into four groups:
+
+(a) Interactions
+(b) Widgets
+(c) Effects
+(d) Utilities
+
+************************************************************
+
+
+

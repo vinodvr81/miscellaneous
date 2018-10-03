@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+<script type="text/javascript" language="javascript">
+	
+$(document).ready(function(){
+	                        $("p").hover(function(){
+							                       $(this).css("background-color","aqua");
+												},function(){	
+												$(this).css("background-color","red");
+								});
+
+							});
+</script>
+</head>
+	<body>
+		<p> My Favorite philosophical is "let it go !!!"</p>
+	</body>
+</html>
+

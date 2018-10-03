@@ -1,0 +1,10 @@
+Widgets are the jQuery plug-ins which makes you able to create UI elements: These are the 
+mostly used widgets:
+
+(a) Accordion (b) Autocomplete (c) Dialog
+
+(d) Button (e) Date Picker (f) Menu
+
+(g) Progress Bar (h) Tabs (i)Tooltip
+
+(j)Slider (k)Spinner

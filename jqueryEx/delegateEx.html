@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+
+<style>
+	p{
+		background-color:aqua;
+	}
+	p.over
+	{
+		background-color:red;
+	}
+		
+</style>
+		
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+
+
+
+</head>
+<body>
+		
+	<p> This is a complete course on Jquery</p>
+
+
+<script>
+
+$("body").delegate("p","click",function(){
+							$(this).after("<p>This is what I stand for</p>");
+							});											
+
+</script>
+				
+</body>
+</html>

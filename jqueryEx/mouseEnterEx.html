@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+<script type="text/javascript" language="javascript">
+	i=0;
+$(document).ready(function(){
+	                        $("#abc").mouseenter(function(){
+							                        	$("div").text("Mouse Enter event has occured").show().fadeOut(1000);
+		
+														});
+							});
+</script>
+</head>
+	<body>
+		<p id="abc">Mouse Enter event boom!!!</p>
+		<div></div>
+	</body>
+</html>
+

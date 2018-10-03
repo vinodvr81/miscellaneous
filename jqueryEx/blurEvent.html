@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+<script type="text/javascript" language="javascript">
+$(document).ready(function(){
+	                        $("input").blur(function(){
+								alert("No input can be taken. if you write outside of the input box");
+							});
+				});
+</script>
+</head>
+	<body>
+		Please enter your name: <input type="text">
+	</body>
+</html>

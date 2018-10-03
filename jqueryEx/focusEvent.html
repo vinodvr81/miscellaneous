@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">    
+</script>
+    <style>
+    span
+    {
+        display:none;
+     }            
+    </style>
+</head>
+<body>
+    <p><input type="text"></p>
+    <p><input type="password"></p>
+    
+<script type="text/javascript" language="javascript">
+$("input").focus(function(){
+        $(this).next("span").css("display","inline");
+	});
+
+    </script>
+</body>    
+    
+</html>
+

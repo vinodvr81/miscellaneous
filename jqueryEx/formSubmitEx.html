@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<head>
+<title>Change Selector</title>
+    <style>
+    
+        span{
+            
+            color:aqua;
+        }
+    </style>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">    
+</script>
+
+</head>
+<body>
+
+<form action="javascript:alert('successful submission')">
+<div>
+    
+<input type="text">
+<input type="submit">    
+</div>    
+    
+</form>
+
+
+<script>
+	$("form").submit(function(event){
+						if ($("input:first").val()=="jquery")
+                            {
+                                $("span").text("you have submitted successfully").show()
+                                return;
+                            }
+                        $("span").text("not valid text").show().fadeOut(1000);
+                        event.preventDefault();            
+						});
+	
+	</script>
+	
+	
+</body>    
+    
+</html>
+

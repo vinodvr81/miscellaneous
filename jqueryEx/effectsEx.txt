@@ -1,0 +1,6 @@
+The internal jQuery effects contain a full suite of custom animations and transitions for 
+the DOM  elements
+
+(a) Hide (b) Show  (c) Add Class (d) Remove Class (e) Switch Class
+
+(f) Toggle Class (g) Color Animation (h) Effect (I) Toggle
