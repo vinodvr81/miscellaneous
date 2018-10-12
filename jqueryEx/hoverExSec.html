@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<style>
+	span{
+		color:green;
+	}
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+
+</head>
+	<body>
+		<p> My Favorite philosophical is "let it go !!!"</p>
+		<ul>
+			<li>Dosa</li>	
+			<li>Poha</li>
+			<li class="fade">Aloo</li>		
+		</ul>	
+
+<script type="text/javascript" language="javascript">
+	
+$("li").hover(function(){
+				$(this).append($("<span>***</span>"));
+				},function(){
+				$(this).find("span:last").remove();	
+					
+				});
+			
+
+		$("li.fade").hover(function(){
+								$(this).fadeOut(200);
+								$(this).fadeIn(400);
+							});
+		
+</script>
+			
+	</body>
+</html>
+

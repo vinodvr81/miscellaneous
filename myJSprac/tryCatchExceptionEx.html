@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+	
+	<head>
+		<title>Title of the document</title>
+		
+	<script language="javascript" type="text/javascript">
+		
+		function myFuncTry()
+		{
+			var a = prompt("Enter any string : ");
+			try 
+			{
+				var S = a.toUpprerCase();
+				alert("Value of the variable is: " + S); 
+			}
+			catch ( e )
+			{				
+				alert("Error");
+			}
+			finally
+			{
+				alert("Finally the block will execute");
+			}
+		 }			
+	</script>
+			
+	</head>
+
+	<body>
+		The content of the document......	
+		<p> Click the following button for Result </p>
+
+	
+		<form>
+			<input type="button" onclick="myFuncTry()" value="Click Me" > 
+		</form>	
+		
+</body>
+</html> 
+
+
+

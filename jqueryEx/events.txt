@@ -1,0 +1,21 @@
+*****************************
+INTRODUCTION TO EVENTS ...!!!
+*****************************
+
+Events are as follows:
+
+(1)A mouse click (click,dbclick,mouseenter,mouseleave)
+
+
+(2)Form submission (submit, change,blur,focus)
+
+
+(3)Web page loading (load, unload, scroll,resize)
+
+
+(4)Scrolling of web page
+
+
+(5)Selecting a radio button
+
+

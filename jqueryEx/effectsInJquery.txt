@@ -1,0 +1,52 @@
+**********************************************
+
+There are four categories of effects in Jquery
+
+*********************************************
+
+(1) Display effects
+
+(2) Fading effects
+
+(3) Sliding effects
+
+(4) Other effects
+
+
+***********************************************
+
+Dispaly effects:
+
+(a) Hide
+(b) Show
+(c)Toggle
+
+
+**************************************************
+
+Fading Effects:
+
+(a)fadeIn
+(b)fadeOut
+(c)fadeToggle
+(d)fadeTo
+
+
+**************************************************
+
+Sliding Effects:
+
+
+(a)slideDown
+(b)slideUp
+(c)slideToggle
+
+**************************************************
+
+Other Effects:
+
+
+(a) animate
+(b) delay
+
+****************************************************

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+<script
+			  src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+			  integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+			  crossorigin="anonymous">
+</script>
+
+<script>
+	
+$(function(){
+			$("#dragg").draggable();
+		});
+
+</script>
+
+</head>
+	<body>
+		<div id="d1" style="border:1px solid; background:aqua;">
+		<span>Sorry, I am not draggable,Try another one</span></div>	
+		
+		<div id="d2" style="border:1px solid; background:red;">
+		<span>Hello, yes I can be draggedle, but you have to drag me for 50px</span></div>			
+		
+		<div id="d3" style="border:1px solid; background:yellow;">
+		<span>I will be dragged after 200 milliseconds</span></div>					
+	<script>
+		$("#d1 span").draggable(
+								{disabled:true}
+								);
+
+		$("#d2 span").draggable(
+								{distance:50}
+								);								
+	
+		$("#d3 span").draggable(
+								{delay:200}
+								);
+	</script>
+	
+	
+	</body>
+</html>
+

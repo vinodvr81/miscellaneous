@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+<script
+			  src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+			  integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+			  crossorigin="anonymous">
+</script>
+<style>
+	#dragg-1
+	{
+	
+			width:150px; height:100px; padding:0.5em; float:left; margin:20px 5px 10px 1px; background:aqua;
+			
+	}
+	#drop-1
+	{
+		
+			width:200px; height:200px; padding:0.5em; float:left; margin:10px; background:yellow;
+		
+	}
+
+
+
+</style>
+
+
+	<script>
+		$(function(){	
+			$("#dragg-1").draggable();
+			$("#drop-1").droppable();
+				});
+
+	</script>
+
+</head>
+	<body>
+		<div id="dragg-1" class="ui-widget-content">
+		<p>Life and its uncertianity has to be accepted and there is no choice</p></div>	
+		
+		<div id="drop-1" class="ui-widget-header">
+		<p>Thanks for the philosphical guidance</p></div>	
+	</body>
+</html>
+

@@ -1,0 +1,11 @@
+*******************************
+PARAMETERS USED FOR BIND EVENT
+*******************************
+
+(1)Event: This is an essential parameter and is used to attach one or more events to the elements.
+
+(2)Data: This is an optional parameter and specifies the additional data to pass along the function.
+
+(3)Function: This is an essential parameter and it executes the function to run when the event occurs.
+
+(4)Map: It specifies an event map which contains one or mre events or function attached.

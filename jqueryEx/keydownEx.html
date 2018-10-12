@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+<script type="text/javascript" language="javascript">
+$(document).ready(function(){
+	                        $("input").keydown(function(){
+							                        	$("input").css("background-color","red");
+		
+														});
+	
+	                        $("input").keyup(function(){
+							                        	$("input").css("background-color","aqua");
+		
+														});
+	
+							});
+</script>
+</head>
+	<body>
+	Write your hobbies = <input type="text">
+	</body>
+</html>

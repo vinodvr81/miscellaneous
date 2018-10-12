@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>First Selector</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+<script type="text/javascript" language="javascript">
+$(document).ready(function(){
+	                        $("tr").css("background-color","blue");
+	                        $("tr").css("border-spacing", "5px");
+							$("th td").css( "border","1px solid black");
+							$("th td").css( "padding","15px");
+							$("th td").css( "border-spacing","5px");
+							$("th").css("text-align", "left");
+							});
+</script>
+</head>
+	<body>
+		<h1>This is a table</h1>
+			<table style="width:100%">
+			  <tr>
+				<th>Firstname</th>
+				<th>Lastname</th>
+				<th>Age</th>
+			  </tr>
+			  <tr>
+				<td>Vinod</td>
+				<td>Vukkalam</td>
+				<td>37</td>
+			  </tr>
+			  <tr>
+				<td>Nevaan</td>
+				<td>Vukkalam</td>
+				<td>2</td>
+			  </tr>
+			</table> 
+
+	</body>
+</html>

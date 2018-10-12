@@ -1,0 +1,18 @@
+********************************************************************************************
+
+Interactions are the set of plug-ins which facilitates users to interact with DOM (Document 
+Object Model) elements. These are the mostly used interactions:
+
+(a) Draggable
+
+(b) Droppable
+
+(c) Resizable
+
+(d) Selectable
+
+(e) Sortable
+
+*********************************************************************************************
+
+

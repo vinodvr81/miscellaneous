@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<head>
+<title>Change Selector</title>
+<style>
+    div{
+        color:darkred;
+    }
+    
+    </style>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">    
+</script>
+
+
+</head>
+<body>
+
+<select id="food" name="MyTaste">
+
+	<option>Dosa</option>
+	<option selected="selected">Idly</option>
+	<option>Poori</option>
+	<option>Upma</option>
+	
+
+</select>
+
+<div id="xyz">
+</div>
+
+
+<script>
+	$("select").change(function(){
+						document.getElementById("xyz").innerHTML="Your Selection :"+ document.getElementById("food").value;
+						});
+	
+	</script>
+	
+	
+</body>    
+    
+</html>
+

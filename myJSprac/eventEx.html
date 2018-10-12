@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+	
+	<head>
+		<title>Title of the document</title>
+	<script language="javascript" type="text/javascript">
+		function MouseOver()
+		{
+				document.images["img1"].src = "cuteKitty.jpg";
+		}
+		
+		function MouseOut()
+		{
+				document.images["img1"].src = "cutePuppy.jpg";
+		}		
+		
+		function Load()
+		{
+				document.images["img1"].src = "tiger.jpg";
+		}		
+	</script>
+	</head>
+
+	<body onload="Load()">
+		The content of the document......
+			<img name ="img1" onmouseover = "MouseOver()" onmouseout = "MouseOut()" />		
+	
+	</body>
+</html> 
+
+
+
+
+
